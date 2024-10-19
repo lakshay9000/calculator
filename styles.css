@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    gap: 10px;
+}
+button{
+    height: 70px;
+    border-radius: 35px;
+    margin: 2px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.divide, .multiplication, .subtraction, .addition, .calculate{
+    background-color: rgb(255,158,11);
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.divide:hover, .multiplication:hover, .subtraction:hover, .addition:hover, .calculate:hover{
+    background-color: rgb(242, 171, 64);
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero, .decimal, .scintific{
+    background-color: rgb(42,42,44);
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover, .zero:hover, .decimal:hover, .scintific:hover{
+    background-color: rgb(82, 82, 83);;
+
+}
+.clear, .power, .modulus{
+    background-color: rgb(92,91,95);
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.clear:hover, .power:hover, .modulus:hover{
+    background-color: rgb(182, 182, 182);
+}
+#calculate{
+    max-width: 300px;
+    background-color: black;
+}
+#display{
+    width: 100%;
+    height: 75px;
+    border: none;
+    border-radius: 8px;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    
+}
